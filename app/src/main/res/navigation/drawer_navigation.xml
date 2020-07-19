@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@id/nav_home"
+        android:name="com.debasish.navigationcomponentexample.navigationdrawer.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@id/nav_gallery"
+        android:name="com.debasish.navigationcomponentexample.navigationdrawer.GalleryFragment"
+        android:label="Gallery"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.debasish.navigationcomponentexample.navigationdrawer.SendFragment"
+        android:label="Send"
+        tools:layout="@layout/fragment_send" />
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.debasish.navigationcomponentexample.navigationdrawer.ShareFragment"
+        android:label="Share"
+        tools:layout="@layout/fragment_share" />
+    <fragment
+        android:id="@+id/nav_slide_show"
+        android:name="com.debasish.navigationcomponentexample.navigationdrawer.SlideShowFragment"
+        android:label="Slideshow"
+        tools:layout="@layout/fragment_slide_show" />
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.debasish.navigationcomponentexample.navigationdrawer.ToolsFragment"
+        android:label="Tools"
+        tools:layout="@layout/fragment_tools" />
+</navigation>
